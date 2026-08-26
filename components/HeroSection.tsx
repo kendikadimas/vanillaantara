@@ -77,7 +77,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease, delay: 0.3 }}
-            className="hidden lg:flex lg:col-span-5 justify-center lg:justify-end items-center"
+            className="flex lg:col-span-5 justify-center lg:justify-end items-center"
           >
             <div className="relative vintage-border w-full max-w-[440px] aspect-[4/5] overflow-hidden bg-parchment group shadow-2xl">
               <Image
