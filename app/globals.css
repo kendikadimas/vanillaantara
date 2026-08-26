@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand Palette */
+  --color-cream:       #F7F4EB;
+  --color-parchment:   #EDE8D5;
+  --color-forest:      #2A3B28;
+  --color-forest-light:#3D5439;
+  --color-gold:        #C5A059;
+  --color-gold-light:  #D4B578;
+  --color-vanilla:     #6B4C2A;
+  --color-vanilla-light:#8B6840;
+  --color-ink:         #1A2618;
+
+  /* Typography */
+  --font-serif:  var(--font-cormorant);
+  --font-sans:   'Jost', system-ui, sans-serif;
+
+  /* Spacing scale extras */
+  --spacing-18: 4.5rem;
+  --spacing-22: 5.5rem;
+  --spacing-30: 7.5rem;
+}
+
+/* Base */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F7F4EB;
+  color: #2A3B28;
+  font-family: 'Jost', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Serif utility */
+.font-serif  { font-family: var(--font-cormorant), Georgia, serif; }
+.font-sans   { font-family: 'Jost', system-ui, sans-serif; }
+
+/* Vintage border ornament */
+.vintage-border {
+  border: 1.5px solid #C5A059;
+  outline: 1px solid #C5A059;
+  outline-offset: -6px;
+}
+
+/* Gold rule divider */
+.gold-rule {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #C5A059 30%, #C5A059 70%, transparent 100%);
+}
+
+/* Engraving texture overlay */
+.engraving-bg {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(42,59,40,0.018) 2px,
+      rgba(42,59,40,0.018) 3px
+    );
+}
+
+/* Parchment section bg */
+.bg-parchment { background-color: #EDE8D5; }
+.bg-cream      { background-color: #F7F4EB; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F7F4EB; }
+::-webkit-scrollbar-thumb { background: #C5A059; border-radius: 3px; }
+
+/* Selection */
+::selection { background: #C5A05940; color: #2A3B28; }
