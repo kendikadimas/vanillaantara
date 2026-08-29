@@ -89,7 +89,7 @@ export default function ProductsSection() {
                     alt={p.alt}
                     fill
                     sizes="(max-width: 768px) 100vw, 600px"
-                    className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                    className="object-contain object-center transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-forest/40 via-transparent to-transparent opacity-60 pointer-events-none" />
                 </div>
