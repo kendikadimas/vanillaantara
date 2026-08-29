@@ -30,17 +30,17 @@ const galleryItems = [
   },
   {
     id: 2,
-    src: "/images/gallery/gallery-2.jpg",
+    src: "/images/newgallery.jpeg",
     alt: "Hand-harvested Vacuum Packed Gourmet Vanilla Pods",
   },
   {
     id: 3,
-    src: "/images/gallery/gallery-3.jpg",
+    src: "/images/galery2.jpeg",
     alt: "Bulk Export Grade Vacuum Sealed Vanilla Batch",
   },
   {
     id: 4,
-    src: "/images/gallery/gallery-4.jpg",
+    src: "/images/gallery3.jpeg",
     alt: "Vacuum Sealed Planifolia Moisture Retention Detail",
   },
   {
