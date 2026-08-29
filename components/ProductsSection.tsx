@@ -28,7 +28,7 @@ const products = [
     name: "Planifolia Vanilla Pods",
     grade: "Gourmet Grade A",
     desc: "Whole cured pods with a bold, complex aroma and an oily, plump texture. The working ingredient for fine dining, pâtisserie, and serious dessert work.",
-    image: "/images/product-gourmet-pods.jpg",
+    image: "/images/product1.jpeg",
     alt: "Gourmet Grade A Planifolia vanilla pods in vacuum package",
     specs: [
       { label: "Length", val: "14–18 cm" },
@@ -83,7 +83,7 @@ export default function ProductsSection() {
           {products.map((p, i) => (
             <FadeUp key={p.name} delay={i * 0.12}>
               <div className="group bg-cream border border-gold/25 hover:border-gold/60 transition-all duration-500 overflow-hidden h-full flex flex-col shadow-md hover:shadow-xl">
-                <div className="h-64 sm:h-72 relative bg-parchment overflow-hidden border-b border-gold/20">
+                <div className="aspect-[4/3] relative bg-parchment overflow-hidden border-b border-gold/20">
                   <Image
                     src={p.image}
                     alt={p.alt}
