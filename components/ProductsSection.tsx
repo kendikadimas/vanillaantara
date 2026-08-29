@@ -79,16 +79,16 @@ export default function ProductsSection() {
           </h2>
         </FadeUp>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-20">
+        <div className="flex flex-col gap-8 mb-20">
           {products.map((p, i) => (
             <FadeUp key={p.name} delay={i * 0.12}>
-              <div className="group bg-cream border border-gold/25 hover:border-gold/60 transition-all duration-500 overflow-hidden h-full flex flex-col shadow-md hover:shadow-xl">
-                <div className="aspect-[4/3] relative bg-parchment overflow-hidden border-b border-gold/20">
+              <div className="group bg-cream border border-gold/25 hover:border-gold/60 transition-all duration-500 overflow-hidden flex flex-col md:flex-row shadow-md hover:shadow-xl">
+                <div className="w-full md:w-2/5 aspect-[4/3] md:aspect-auto relative bg-parchment overflow-hidden border-b md:border-b-0 md:border-r border-gold/20 shrink-0">
                   <Image
                     src={p.image}
                     alt={p.alt}
                     fill
-                    sizes="(max-width: 768px) 100vw, 600px"
+                    sizes="(max-width: 768px) 100vw, 500px"
                     className="object-contain object-center transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-forest/40 via-transparent to-transparent opacity-60 pointer-events-none" />
