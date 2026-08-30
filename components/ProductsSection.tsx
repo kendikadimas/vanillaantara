@@ -93,7 +93,7 @@ export default function ProductsSection() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-forest/40 via-transparent to-transparent opacity-60 pointer-events-none" />
                 </div>
-                <div className="p-8 flex-1 flex flex-col justify-between">
+                <div className="p-8 flex-1 flex flex-col justify-start gap-6">
                   <div>
                     <div className="flex items-start justify-between mb-4">
                       <div>
