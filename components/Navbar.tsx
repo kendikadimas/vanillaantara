@@ -13,7 +13,7 @@ const navLinks = [
   { label: "Contact", href: "#kontak" },
 ];
 
-const WA_URL = "https://wa.me/6281234567890?text=Hi%20Vanilla%20Antara%2C%20I%27d%20like%20to%20ask%20about%20your%20vanilla%20products.";
+const EMAIL_URL = "mailto:hello@vanillaantara.com?subject=Enquiry&body=Hi%20Vanilla%20Antara%2C%20I%27d%20like%20to%20ask%20about%20your%20vanilla%20products.";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -55,9 +55,7 @@ export default function Navbar() {
 
         {/* CTA desktop */}
         <a
-          href={WA_URL}
-          target="_blank"
-          rel="noopener noreferrer"
+          href={EMAIL_URL}
           className="hidden lg:inline-flex items-center gap-2 px-5 py-2.5 border border-gold text-gold font-sans text-sm tracking-[0.1em] uppercase hover:bg-gold hover:text-cream transition-all duration-300"
         >
           Contact Us
@@ -96,9 +94,7 @@ export default function Navbar() {
           ))}
           <li className="pt-2">
             <a
-              href={WA_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={EMAIL_URL}
               className="inline-flex items-center gap-2 px-6 py-3 border border-gold text-gold font-sans text-sm tracking-[0.1em] uppercase"
             >
               Contact Us

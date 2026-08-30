@@ -132,6 +132,41 @@ export default function ProductsSection() {
           ))}
         </div>
 
+        {/* Sample Pack Banner */}
+        <FadeUp delay={0.1} className="mb-20">
+          <div className="border border-gold/40 bg-cream p-8 lg:p-10 flex flex-col lg:flex-row lg:items-center gap-8 shadow-sm">
+            <div className="flex-1">
+              <span className="font-sans text-[10px] tracking-[0.22em] uppercase text-gold block mb-3">Try Our Gourmet Quality</span>
+              <h3 className="font-serif text-2xl lg:text-3xl text-forest mb-2">International Sample Pack — <span className="text-gold">€20 All-In</span></h3>
+              <p className="font-sans text-sm text-forest/60 leading-relaxed">
+                4 Premium Pods (Planifolia &amp; Tahitensis) · Worldwide Express Delivery · Official Phytosanitary Certificate
+              </p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+              <a
+                href="mailto:hello@vanillaantara.com?subject=Sample%20Pack%20Request%20%E2%80%94%20%E2%82%AC20&body=Hi%20Vanilla%20Antara%2C%0A%0AI%27d%20like%20to%20order%20the%20%E2%82%AC20%20International%20Sample%20Pack.%0A%0ABusiness%20Name%20%2F%20Name%3A%20%0AShipping%20Address%3A%20%0APhone%20Number%3A%20%0APreferred%20Vanilla%20Type%3A%20%5B%20%5D%20Planifolia%20%5B%20%5D%20Tahitensis%20%5B%20%5D%20Both"
+                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-forest text-cream font-sans text-xs tracking-[0.12em] uppercase hover:bg-forest/80 transition-all duration-300"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5" aria-hidden="true">
+                  <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+                Order via Email
+              </a>
+              <a
+                href="https://instagram.com/vanillaantara"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 border border-gold text-gold font-sans text-xs tracking-[0.12em] uppercase hover:bg-gold hover:text-cream transition-all duration-300"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+                </svg>
+                DM on Instagram
+              </a>
+            </div>
+          </div>
+        </FadeUp>
+
         <FadeUp delay={0}>
           <div className="flex items-center gap-3 mb-6">
             <span className="block w-8 h-px bg-gold/40" />
