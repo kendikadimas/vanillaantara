@@ -11,14 +11,36 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://vanillaantara.com"),
   title: "Vanilla Antara — Premium Indonesian Vanilla, Export & B2B",
   description:
     "Pelopor vanila kualitas premium (gourmet grade) pilihan terpercaya untuk bakery, industri kuliner, dan pasar ekspor global.",
-  keywords: ["vanilla", "vanila premium", "vanilla export", "gourmet vanilla", "B2B vanilla Indonesia"],
+  keywords: ["vanilla", "vanila premium", "vanilla export", "gourmet vanilla", "B2B vanilla Indonesia", "vanilla planifolia", "vanilla pods Indonesia"],
+  authors: [{ name: "Vanilla Antara", url: "https://vanillaantara.com" }],
+  creator: "Vanilla Antara",
+  robots: { index: true, follow: true },
+  alternates: { canonical: "https://vanillaantara.com" },
   openGraph: {
-    title: "Vanilla Antara",
-    description: "Menghubungkan Tanah Nusantara dengan Cita Rasa Dunia",
+    title: "Vanilla Antara — Premium Indonesian Vanilla, Export & B2B",
+    description: "Gourmet-grade Planifolia vanilla sourced directly from Indonesian growers, supplied to bakeries, culinary producers, and export buyers worldwide.",
+    url: "https://vanillaantara.com",
+    siteName: "Vanilla Antara",
     type: "website",
+    locale: "id_ID",
+    images: [
+      {
+        url: "/images/hero-vanilla.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Vanilla Antara — Premium Indonesian Vanilla Pods",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vanilla Antara — Premium Indonesian Vanilla, Export & B2B",
+    description: "Gourmet-grade Planifolia vanilla sourced directly from Indonesian growers.",
+    images: ["/images/hero-vanilla.jpg"],
   },
 };
 
