@@ -53,7 +53,7 @@ export default function HeroSection() {
             <FadeUp delay={0.3}>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href={WA_KATALOG}
+                  href="mailto:hello@vanillaantara.com?subject=Catalogue%20%26%20Pricing%20Request&body=Hi%20Vanilla%20Antara%2C%20I%27d%20like%20to%20request%20your%20product%20catalogue%20and%20pricing."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-forest text-cream font-sans text-sm tracking-[0.1em] uppercase hover:bg-forest-light transition-all duration-300 shadow-md"
