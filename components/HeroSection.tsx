@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const WA_KATALOG = "https://wa.me/6281234567890?text=Hi%20Vanilla%20Antara%2C%20I%27d%20like%20to%20request%20your%20product%20catalogue%20and%20pricing.";
-const WA_SAMPEL  = "https://wa.me/6281234567890?text=Hi%20Vanilla%20Antara%2C%20I%27d%20like%20to%20order%20a%20small%20sample%20of%20your%20vanilla.";
+const WA_SAMPEL  = "mailto:hello@vanillaantara.com?subject=Sample%20Request&body=Hi%20Vanilla%20Antara%2C%20I%27d%20like%20to%20order%20a%20small%20sample%20of%20your%20vanilla.";
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
