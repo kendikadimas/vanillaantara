@@ -119,9 +119,7 @@ export default function ProductsSection() {
                       ))}
                     </div>
                     <a
-                      href="https://wa.me/6281234567890?text=Hi%2C%20I%27m%20interested%20in%20a%20Vanilla%20Antara%20product."
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="mailto:hello@vanillaantara.com?subject=Pricing%20Request&body=Hi%20Vanilla%20Antara%2C%20I%27m%20interested%20in%20pricing%20for%20one%20of%20your%20products."
                       className="inline-flex items-center gap-2 font-sans text-sm tracking-[0.1em] uppercase text-gold hover:text-forest transition-colors duration-300 group/link"
                     >
                       <span>Request Pricing</span>
