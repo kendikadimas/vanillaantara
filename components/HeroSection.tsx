@@ -79,7 +79,7 @@ export default function HeroSection() {
             transition={{ duration: 1, ease, delay: 0.3 }}
             className="flex lg:col-span-5 justify-center lg:justify-end items-center"
           >
-            <div className="relative vintage-border w-full max-w-[440px] aspect-[4/5] overflow-hidden bg-parchment group shadow-2xl">
+            <div className="relative vintage-border w-full aspect-[3/4] overflow-hidden bg-parchment group shadow-2xl">
               <Image
                 src="/images/hero-vanilla.jpg"
                 alt="Vanilla Antara gourmet vanilla pods on ceramic dish with rosemary"
