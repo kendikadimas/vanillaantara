@@ -232,7 +232,7 @@ export default function CtaFooter() {
               © {new Date().getFullYear()} Vanilla Antara. All rights reserved.
             </p>
             <p className="font-sans text-xs text-cream/40 tracking-wide">
-              Vanilla Planifolia · Indonesia
+              Developed by <a href="https://kalanalabs.com" target="_blank" rel="noopener noreferrer" className="hover:text-cream/70 transition-colors duration-200">kalanalabs.com</a>
             </p>
           </div>
         </div>
