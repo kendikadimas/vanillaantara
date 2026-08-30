@@ -165,7 +165,7 @@ export default function CtaFooter() {
             {/* Col 1 — Brand */}
             <div>
               <div className="flex items-center gap-3">
-                <Image src="/images/logo.png" alt="Vanilla Antara" width={36} height={36} className="object-contain brightness-0 invert" />
+                <Image src="/images/logo.png" alt="Vanilla Antara" width={36} height={36} className="object-contain" />
                 <span className="font-serif text-2xl text-cream font-bold">Vanilla Antara</span>
               </div>
               <p className="font-sans text-sm text-cream/70 leading-relaxed mt-6 max-w-[240px]">
