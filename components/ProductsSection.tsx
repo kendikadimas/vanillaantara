@@ -92,7 +92,7 @@ export default function ProductsSection() {
                     width={600}
                     height={800}
                     sizes="(max-width: 768px) 100vw, 500px"
-                    className={`w-full h-full object-fill transition-transform duration-700 scale-110 group-hover:scale-125 ${p.zoom ?? ""}`}
+                    className={`w-full h-full object-fill transition-transform duration-700 scale-125 group-hover:scale-150 ${p.zoom ?? ""}`}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-forest/40 via-transparent to-transparent opacity-60 pointer-events-none" />
                 </div>
