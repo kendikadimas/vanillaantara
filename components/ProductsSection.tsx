@@ -30,6 +30,7 @@ const products = [
     desc: "Whole cured pods with a bold, complex aroma and an oily, plump texture. The working ingredient for fine dining, pâtisserie, and serious dessert work.",
     image: "/images/product1.jpeg",
     alt: "Gourmet Grade A Planifolia vanilla pods in vacuum package",
+    zoom: "",
     specs: [
       { label: "Length", val: "14–18 cm" },
       { label: "Moisture", val: "25–35%" },
@@ -44,6 +45,7 @@ const products = [
     desc: "Plump, sun-cured Indonesian Planifolia pods vacuum-sealed in export batches. Consistent vanillin & moisture dialled in for wholesale buyers.",
     image: "/images/product-export-batch.jpg",
     alt: "Export grade vacuum-sealed vanilla pods batch",
+    zoom: "scale-125",
     specs: [
       { label: "Grading", val: "Export A/B" },
       { label: "Packaging", val: "Vacuum Seal" },
@@ -90,7 +92,7 @@ export default function ProductsSection() {
                     width={600}
                     height={800}
                     sizes="(max-width: 768px) 100vw, 500px"
-                    className="w-full h-full object-fill transition-transform duration-700 group-hover:scale-105"
+                    className={`w-full h-full object-fill transition-transform duration-700 group-hover:scale-105 ${p.zoom ?? ""}`}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-forest/40 via-transparent to-transparent opacity-60 pointer-events-none" />
                 </div>
