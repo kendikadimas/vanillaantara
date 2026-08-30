@@ -83,7 +83,7 @@ export default function ProductsSection() {
           {products.map((p, i) => (
             <FadeUp key={p.name} delay={i * 0.12}>
               <div className="group bg-cream border border-gold/25 hover:border-gold/60 transition-all duration-500 overflow-hidden flex flex-col md:flex-row shadow-md hover:shadow-xl">
-                <div className="w-full md:w-2/5 aspect-[3/4] relative bg-parchment overflow-hidden border-b md:border-b-0 md:border-r border-gold/20 shrink-0">
+                <div className="w-full md:w-2/5 aspect-[2/3] relative bg-parchment overflow-hidden border-b md:border-b-0 md:border-r border-gold/20 shrink-0">
                   <Image
                     src={p.image}
                     alt={p.alt}
