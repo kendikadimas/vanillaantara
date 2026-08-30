@@ -42,7 +42,7 @@ const trustPoints = [
 const faqs = [
   {
     q: "Can I order a small sample before committing to a larger quantity?",
-    a: "Yes. Sample packs are available so you can evaluate the aroma and quality before placing a trade order. Contact our team via WhatsApp to arrange one.",
+    a: "Yes. Sample packs are available so you can evaluate the aroma and quality before placing a trade order. Email us at hello@vanillaantara.com to arrange one.",
   },
   {
     q: "What is the minimum order quantity for business or export orders?",
@@ -51,10 +51,6 @@ const faqs = [
   {
     q: "What export documents do you provide?",
     a: "Every export shipment includes a Phytosanitary Certificate and Certificate of Analysis (CoA). Additional documentation can be arranged depending on the destination country's requirements.",
-  },
-  {
-    q: "How long does delivery take?",
-    a: "Domestic orders typically arrive within 2 to 5 business days. For international shipments we coordinate directly with you on logistics and documentation timelines.",
   },
 ];
 
