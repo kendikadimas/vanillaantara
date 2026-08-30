@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -33,8 +34,9 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
-        <a href="#" aria-label="Vanilla Antara — Home" className="font-serif text-2xl text-forest font-bold">
-          Vanilla Antara
+        <a href="#" aria-label="Vanilla Antara — Home" className="flex items-center gap-3">
+          <Image src="/images/logo.png" alt="Vanilla Antara" width={40} height={40} className="object-contain" />
+          <span className="font-serif text-2xl text-forest font-bold">Vanilla Antara</span>
         </a>
 
         {/* Desktop links */}

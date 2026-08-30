@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
+import Image from "next/image";
 
 const ease: [number, number, number, number] = [0.22, 1, 0.36, 1];
 const EMAIL_URL = "mailto:hello@vanillaantara.com?subject=Pricing%20%26%20Sample%20Request&body=Hi%20Vanilla%20Antara%2C%20I%27d%20like%20to%20request%20a%20sample%20or%20get%20pricing%20information.";
@@ -163,7 +164,10 @@ export default function CtaFooter() {
 
             {/* Col 1 — Brand */}
             <div>
-              <span className="font-serif text-2xl text-cream font-bold">Vanilla Antara</span>
+              <div className="flex items-center gap-3">
+                <Image src="/images/logo.png" alt="Vanilla Antara" width={36} height={36} className="object-contain brightness-0 invert" />
+                <span className="font-serif text-2xl text-cream font-bold">Vanilla Antara</span>
+              </div>
               <p className="font-sans text-sm text-cream/70 leading-relaxed mt-6 max-w-[240px]">
                 Fine vanilla from Indonesian growers, supplied to culinary producers worldwide.
               </p>
