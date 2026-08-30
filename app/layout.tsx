@@ -60,6 +60,22 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
       </head>
       <body className="min-h-screen bg-cream text-forest antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Vanilla Antara",
+              url: "https://vanillaantara.com",
+              logo: "https://vanillaantara.com/images/hero-vanilla.jpg",
+              description: "Premium Indonesian Vanilla supplier — Gourmet Grade A Planifolia pods for bakeries, culinary producers, and export buyers worldwide.",
+              email: "hello@vanillaantara.com",
+              address: { "@type": "PostalAddress", addressCountry: "ID" },
+              sameAs: ["https://vanillaantara.com"],
+            }),
+          }}
+        />
         {children}
       </body>
     </html>
