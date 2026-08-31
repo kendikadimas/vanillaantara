@@ -43,7 +43,7 @@ const products = [
     name: "Vanilla Tahitensis",
     grade: "Gourmet Grade · Export Ready",
     desc: "Prized for its floral, cherry-anise notes and exceptionally plump pods. A distinct profile from Planifolia — preferred by pastry chefs and perfumers who need something more delicate.",
-    image: "/images/tahitensis-rotated.jpeg",
+    image: "/images/tahitensis-r.jpeg",
     alt: "Gourmet Vanilla Tahitensis pods",
     zoom: "scale-125",
     specs: [
