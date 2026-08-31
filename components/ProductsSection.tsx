@@ -49,7 +49,7 @@ const products = [
     specs: [
       { label: "Base", val: "100% Tahitensis" },
       { label: "Form", val: "Gourmet Beans" },
-      { label: "Docs", val: "CoA & Phyto" },
+      { label: "Docs", val: "Phyto" },
       { label: "MOQ", val: "By Request" },
     ],
   },
